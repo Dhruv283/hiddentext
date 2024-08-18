@@ -5,7 +5,8 @@ from django.urls import reverse
 def index(request):
     return render(request,'index.html')
 
-
+def hello():
+    print("hello")
 def en(request):
     return render(request,'en.html')
 
